@@ -1,44 +1,125 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Registration Form</title>
-      <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
-  <body>
-    <h1>Registration Form</h1>
-    <p>Please fill out this form with the required information</p>
-    <form action='https://register-demo.freecodecamp.org'>
-      <fieldset>
-        <label>Enter Your First Name: <input type="text" name="first-name" required /></label>
-        <label>Enter Your Last Name: <input type="text" name="last-name" required /></label>
-        <label>Enter Your Email: <input type="email" name="email" required /></label>
-        <label>Create a New Password: <input type="password" name="password" pattern="[a-z0-5]{8,}" required /></label>
-      </fieldset>
-      <fieldset>
-        <label><input type="radio" name="account-type" class="inline" /> Personal Account</label>
-        <label><input type="radio" name="account-type" class="inline" /> Business Account</label>
-        <label>
-          <input type="checkbox" name="terms" class="inline" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
-              </label>
-      </fieldset>
-      <fieldset>
-        <label>Upload a profile picture: <input type="file" name="file" /></label>
-        <label>Input your age (years): <input type="number" name="age" min="13" max="120" />
-              </label>
-        <label>How did you hear about us?
-          <select name="referrer">
-            <option value="">(select one)</option>
-            <option value="1">freeCodeCamp News</option>
-            <option value="2">freeCodeCamp YouTube Channel</option>
-            <option value="3">freeCodeCamp Forum</option>
-            <option value="4">Other</option>
-          </select>
-        </label>
-        <label>Provide a bio:
-          <textarea name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
-              </label>
-      </fieldset>
-      <input type="submit" value="Submit" />
-    </form>
-  </body>
+<html lang="pt-br">
+    <head>
+        <title>Formulário Gamer</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+<body>
+    <h1 id="title">Que tipo de GAMER  é você?</h1>
+    <fieldset class="main">
+        <p id="description">Você é um gamer?<br> Preencha os campos abaixo para completar a pesquisa.</p>
+        <form id="survey-form" method="GET">
+            <div class="container">
+    
+<label id="name-label" for="nome">Seu Nome:</label>
+    <div class="container-input-select">
+        <input class="input-select" id="name" type="text" name="nome" placeholder="Digite o seu nome" required autofocus>
+    </div>
+
+
+    <div class="container">
+        <div class="container-label">
+            <label id="number-label" for="idade">Idade:</label>
+        </div>
+    </div>
+    <div class="container-input-select">
+        <input class="input-select" id="number" type="number" name="idade" min="13" max="120" placeholder=" Sua idade" required>
+    </div>
+</div>
+
+<div class="container">
+    <div class="container-label">
+        <label id="email-label" for="email">Email:</label>
+    </div>
+    <div class="container-input-select">
+        <input class="input-select" id="email" type="email" name="email" placeholder="Digite o seu email" required>
+    </div>
+</div>
+
+<div class="container">
+    <div class="container-label">
+        <label for="sexo">Sexo:</label>
+    </div>
+    <div class="container-input-select">
+        <ul>
+            <li><label><input type="radio" name="sexo" value="masculino">Masculino</label></li>
+            <li><label><input type="radio" name="sexo" value="feminino">Feminino</label></li>
+            <li><label><input type="radio" name="sexo" value="outro"></label>Outro</li>
+        </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="container-label">
+        <label for="frequência">Com que frequência joga jogos?</label>
+    </div>
+    
+    <div class="container-input-select">
+        <select class="input-select" id="dropdown" name="frequência">
+            <option disabled selected value>Selecione uma opção</option>
+            <option value="DIA">Diariamente</option>
+            <option value="3Sem">Até 3 vezes por semana</option>
+            <option value="5Mes">Até 5 vezes por mês</option>
+            <option value="VAno">Algumas vezes por ano</option>
+        
+       </select>
+    </div>
+    <div class="container">
+        <div class="container-label">
+            <label for="plataformas">Em qual plataforma prefere jogar jogos?</label>
+        </div>
+       
+        <div class="container-input-select">
+            <select class="input-select" name="plataformas">
+                <option disabled selected value>Selecione uma opção</option>
+                <option value="0">Computador</option>
+                <option value="1">Console</option>
+                <option value="2">Mobile</option>
+                <option value="3">Não tenho preferência</option>
+            </select>
+        </div>
+    </div>
+    <div class="container">
+        <div class="container-label">
+            <label for="jogos">Qual tipo de jogo você mais gosta?</label>
+        </div>
+        <div class="container-input-select">
+            <ul>
+                <li><label><input type="checkbox" name="jogos" value="aventura">Aventura</label></li>
+                <li><label><input type="checkbox" name="jogos" value="mmorpg">MMORPG</label></li>
+                <li><label><input type="checkbox" name="jogos" value="simuladores">Simuladores</label></li>
+                <li><label><input type="checkbox" name="jogos" value="acao">Ação</label></li>
+                <li><label><input type="checkbox" name="jogos" value="fps">FPS</label></li>
+                <li><label><input type="checkbox" name="jogos" value="esportes">Esportes</label></li>
+                <li><label><input type="checkbox" name="jogos" value="arcade">Arcade</label></li>
+                <li><label><input type="checkbox" name="jogos" value="rpg">RPG</label></li>
+            </ul>
+        </div>
+    </div>
+  
+        <div class="container-label">
+            <label id="text-label" for="favorito">Por favor, indique o nome do seu jogo favorito:</label>
+        </div>
+    </div>
+    <div class="container-input-select">
+        <input class="input-select" id="console" type="text" name="favorito"  required>
+    </div>
+</div>
+
+<div class="container">
+    <div class="container-label">
+        <label for="comentario">Deixe seu comentário, sugestão ou dúvida:</label>
+    </div>
+    <div class="container-input-select">
+        <textarea class="input-select" name="comentario" rows="4" cols="20" placeholder="Digite aqui"></textarea>
+    </div>
+</div>
+<div class="container">
+    <button class="submit" id="submit" type="submit">Enviar</button>            
+</div>
+</form>
+</div>
+</fieldset class="container-label">
+</body>
 </html>
