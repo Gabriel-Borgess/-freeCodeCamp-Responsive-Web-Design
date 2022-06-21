@@ -12,8 +12,7 @@ body {
     background: linear-gradient(45deg, #3023ae 0%, #53a0fd 100%);
      color: white; }
 
-
-h1 {
+     h1, p{
     font-size: 3em;
     text-align: center;
     color: var(--paper);
@@ -24,23 +23,17 @@ h1 {
     background: #4261cf;
     border: 1px dashed var(--primary-color);
     border-radius: 10px;
-}
-
-p {
-    padding-bottom: 10px;
     text-align: center;
 }
 
 ul li {
     list-style: none;
+    text-align: center;
 }
 
 .container {
     padding-top: 20px;
-}
 
-.container-input-select {
-    margin-top: 10px;
 }
 
 .input-select {
@@ -49,12 +42,6 @@ ul li {
     font-family: 'Open Sans', sans-serif;
     border: 1px solid var(--primary-color);
     border-radius: 5px;
-    resize: none;
-    background-color: var(--paper);
-}
-
-.input-select:focus {
-    outline: 0;
 }
 
 .submit {
@@ -62,36 +49,16 @@ ul li {
     margin-top: 10px;
     padding: 10px;
     text-align: center;
-    color: var(--paper);
-    background-color: var(--primary-color);
+    color: -ms-linear-gradient(45deg, #3023ae 0%, #53a0fd 100%);;
+    background-color: ;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    transition: 400ms;
 }
 
-@media screen and (min-width: 768px) {
-    body {
-        max-width: 980px;
-        margin: 3% auto;
+ 
+.submit:hover {
+        background-color: #3023ae ;
     }
-    .main {
-        padding: 5%;
-    }
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .container-input-select {
-        width: 57%;
-        margin-left: 3%;
-    }
-    .container-label {
-        width: 30%;
-        text-align: right;
-    }
-    .submit:hover {
-        background-color: rgb(159, 32, 179);
-    }
-}
+
+** end of undefined **
