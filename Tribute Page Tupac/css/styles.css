@@ -1,0 +1,71 @@
+/* Definições gerais */
+body {
+    background-color: #181818;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos do cabeçalho */
+  #title {
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Estilos da imagem e legenda */
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #img-caption {
+    color: #999;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Estilos da seção de informações sobre Tupac */
+  #headline {
+    color: #fff;
+    text-align: center;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    color: #fff;
+  }
+  
+  /* Estilos do link para a Wikipedia */
+  #tribute-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #tribute-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos do bloco de citação */
+  blockquote {
+    font-style: italic;
+    color: #ccc;
+    border-left: 2px solid #ccc;
+    padding-left: 10px;
+  }
+  
+  /* Estilos do contêiner principal */
+  #main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
