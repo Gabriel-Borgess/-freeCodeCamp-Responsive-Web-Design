@@ -4,13 +4,13 @@ Bem-vindo ao repositório que apresenta os projetos desenvolvidos durante o curs
 
 ### 1️⃣ Formulário de Pesquisa Gamer 🎮
 
-🔗 [Link para o Projeto](https://github.com/Gabriel-Borgess/-freeCodeCamp-Responsive-Web-Design/tree/main/Survey%20Form%20Gamer)
+🔗 [Link para o Projeto](https://codepen.io/Gabriel-Borgess/pen/MWzEjoV)
 
 Este projeto é um formulário de pesquisa para gamers. Apresenta um formulário amigável onde os jogadores podem fornecer suas opiniões e preferências. O formulário foi projetado para ser visualmente atrativo e de fácil navegação, criando uma experiência do usuário intuitiva.
 
 ### 2️⃣ Página de Tributo ao Tupac 🎤
 
-🔗 [Link para o Projeto](https://github.com/Gabriel-Borgess/-freeCodeCamp-Responsive-Web-Design/tree/main/Tribute%20Page%20Tupac)
+🔗 [Link para o Projeto](https://codepen.io/Gabriel-Borgess/pen/VwVMKzZ)
 
 Este projeto é uma página de tributo dedicada ao lendário rapper Tupac Shakur. Destaca sua vida, conquistas e impacto na indústria da música. A página de tributo foi projetada para capturar a essência da persona de Tupac e homenagear suas contribuições.
 
